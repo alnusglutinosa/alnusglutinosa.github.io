@@ -1,0 +1,1164 @@
+p {
+  margin-bottom: 10px;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.main-footer-potok {
+  padding: 3em 3em 6em 6em;
+  background-color: #ececec;
+}
+
+.main-footer-potok-p {
+  padding: 1em 2em 1em 0em;
+  font-weight: 300;
+}
+
+.body {
+  font-family: Roboto, sans-serif;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+.footer-action-potok {
+  padding: 3em 3em 6em 6em;
+  background-color: #8a2c34;
+}
+
+.potok-btn {
+  padding: 1em 2em;
+  border-radius: 6px;
+  background-color: #ed3530;
+  font-size: 1.3em;
+}
+
+.minimum-requirements-potok {
+  padding: 6em 3em 9em 6em;
+}
+
+.potok-header {
+  display: block;
+  padding-bottom: 0.6em;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: Roboto, sans-serif;
+  font-size: 2.7em;
+  line-height: 1.1em;
+  font-weight: 100;
+}
+
+.potok-header.potok-white-color {
+  color: #fff;
+}
+
+.potok-header.potok-white-color.social-tab {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0em;
+  text-align: right;
+}
+
+.potok-header.potok-header-issued-loans {
+  text-align: center;
+}
+
+.potok-p {
+  max-width: 960px;
+  padding-bottom: 0.6em;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+.potok-p.potok-white-color {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.works-with-all-potok {
+  display: none;
+  padding: 6em 3em 9em 6em;
+  background-color: #20313b;
+}
+
+.about-platform-potok {
+  padding: 9em 42% 12em 6em;
+  background-image: -webkit-linear-gradient(315deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)), url('/images/potok-msk-img.jpg');
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)), url('/images/potok-msk-img.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.in-the-media-potok {
+  padding: 1em 1em 1em 6em;
+  background-color: #8a2c34;
+}
+
+.potok-img-smi {
+  margin-top: 1.4em;
+  margin-right: 2em;
+  opacity: 0.7;
+}
+
+.video-about-service-potok {
+  padding: 6em 9em 9em 6em;
+}
+
+.conditions-potok {
+  padding: 6em 3em 9em 6em;
+  background-color: #ececec;
+}
+
+.main-features-potok {
+  padding: 6em 6em 9em;
+}
+
+.potok-img-features {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.potok-divider-line {
+  display: block;
+  width: 20%;
+  height: 1px;
+  margin: 1em auto 2em;
+  background-color: #999;
+}
+
+.main-features-potok-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.potok-divider-space {
+  height: 1px;
+  margin-bottom: 1em;
+}
+
+.main-features-potok-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.first-screen-potok {
+  height: 100vh;
+  padding: 18em 6em 9em;
+  background-image: -webkit-linear-gradient(270deg, rgba(10, 30, 50, .6), rgba(10, 30, 50, .5)), url('../images/59d378710108290001af988c_Depositphotos_166300780_original.jpg');
+  background-image: linear-gradient(180deg, rgba(10, 30, 50, .6), rgba(10, 30, 50, .5)), url('../images/59d378710108290001af988c_Depositphotos_166300780_original.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.potok-header-main {
+  color: #fff;
+  font-size: 3.6em;
+  line-height: 1.1em;
+  font-weight: 100;
+}
+
+.potok-header-additional-info {
+  color: white;
+  font-size: 140%;
+  font-weight: lighter;
+}
+
+.first-screen-potok-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+}
+
+.first-screen-potok-form-input {
+  width: 50%;
+  height: 50px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #fff;
+}
+
+.first-screen-potok-form-input.party {
+  max-width: 50%;
+}
+
+.first-screen-potok-form-btn {
+  height: 50px;
+  padding-right: 3em;
+  padding-left: 3em;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #ed3530;
+}
+
+.red-new-feature {
+  background-color: #ed3530;
+  border-radius: 20px;
+  width: 2.2em;
+  height: 1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-feature-span {
+  font-size: 0.7em;
+}
+
+.potok-img-mouse-scroll {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
+  opacity: 1;
+  cursor: s-resize;
+}
+
+.potok-img-mouse-scroll:hover {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.navbar-potok {
+  position: absolute;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar-potok-container {
+  display: inline;
+  background-color: #000;
+}
+
+.navbar-potok-logo {
+  margin-top: 1.1em;
+  margin-left: 3em;
+}
+
+.navbar-potok-link {
+  margin: 20px 10px;
+  padding: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.navbar-potok-link-afp {
+  padding: 0;
+  border-bottom: none;
+}
+
+.navbar-potok-link-afp span {
+  display: inline-block;
+  padding: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+}
+
+.navbar-potok-link:hover {
+  border-bottom-style: none;
+}
+
+.navbar-potok-menu {
+  display: block;
+  margin-right: 2em;
+}
+
+.navbar-potok-dropdown-text {
+  display: inline-block;
+  padding-left: 9px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.navbar-potok-dropdown-icon {
+  color: #fff;
+}
+
+.dropdown-toggle {
+  padding-top: 21px;
+  padding-left: 30px;
+}
+
+.navbar-potok-dropdown-link {
+  padding-right: 1em;
+  padding-left: 1em;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.navbar-potok-dropdown-link:hover {
+  text-decoration: none;
+}
+
+.navbar-potok-dropdown-list.w--open {
+  margin-top: -1em;
+  padding: 15px 1em;
+  background-color: #ed3530;
+}
+
+.main-footer-potok-link {
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(51, 51, 51, .5);
+  color: #333;
+  text-decoration: none;
+}
+
+.how-it-works-potok-individual {
+  padding: 3em 6em;
+  text-align: left;
+}
+
+.potok-header-individual {
+  padding-bottom: 0.6em;
+  font-family: Roboto, sans-serif;
+  font-size: 3.3em;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+
+.potok-header-second-individual {
+  padding-bottom: 0.3em;
+  font-family: Roboto, sans-serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+
+.potok-p-individual {
+  max-width: 700px;
+  padding-bottom: 1em;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.potok-p-individual.potok-list-intem-individual {
+  max-width: 700px;
+  margin-left: 30px;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.potok-p-individual.leader-speech-potok-individual-p {
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.potok-img-individual-how-it-works {
+  position: static;
+  display: block;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-test {
+  display: inline-block;
+  margin-top: -6px;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  float: left;
+}
+
+.what-risks-potok-individual {
+  padding: 1em 6em 6em;
+}
+
+.potok-list-style-individual {
+  display: block;
+  margin-left: -30px;
+  float: left;
+  color: #ef3124;
+  font-size: 1.3em;
+}
+
+.more-in-blog-potok-individual {
+  padding: 3em 6em 6em;
+  background-color: #ededed;
+}
+
+.conditions-potok-individual {
+  padding: 3em 6em 6em;
+}
+
+.leader-speech-potok-individual {
+  padding: 6em;
+  background-color: #134965;
+  color: #fff;
+}
+
+.leader-speech-potok-individual-column {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.potok-img-individual-leader-speech {
+  margin-bottom: 1em;
+}
+
+.leader-speech-potok-individual-link {
+  padding-bottom: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.leader-speech-potok-individual-link:hover {
+  opacity: 0.8;
+}
+
+.login-system-potok-individual {
+  padding: 3em 6em 9em;
+  background-color: #ededed;
+}
+
+.login-system-potok-individual-tabs-link {
+  margin-right: 6px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.login-system-potok-individual-tabs-link.w--current {
+  background-color: #ef3124;
+  color: #fff;
+}
+
+.login-system-potok-individual-btn {
+  margin-top: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
+  border: 1px solid #999;
+  border-radius: 6px;
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  color: #666;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.login-system-potok-individual-btn:hover {
+  border-color: #ccc;
+}
+
+.login-system-potok-individual-form {
+  margin-top: 3em;
+}
+
+.login-system-potok-individual-form-label {
+  margin-bottom: 9px;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.login-system-potok-individual-form-field {
+  width: 40%;
+  border-radius: 6px;
+}
+
+.footer-potok-individual {
+  padding: 3em;
+  border-top: 1px solid hsla(0, 0%, 100%, .4);
+}
+
+.footer-potok-individual.footer-potok-individual-background {
+  background-image: -webkit-linear-gradient(0deg, #233866 30%, #3a8a95);
+  background-image: linear-gradient(90deg, #233866 30%, #3a8a95);
+}
+
+.footer-potok-individual-p {
+  margin-top: 10px;
+  font-family: Roboto, sans-serif;
+  color: hsla(0, 0%, 100%, .5);
+  font-size: 0.85em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.footer-potok-individual-link {
+  padding-bottom: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+  color: hsla(0, 0%, 100%, .5);
+  text-decoration: none;
+}
+
+.footer-potok-individual-link:hover {
+  color: hsla(0, 0%, 100%, .4);
+}
+
+.first-screen-potok-individual {
+  height: 100vh;
+  padding: 12em 6em 3em;
+  background-image: -webkit-radial-gradient(circle farthest-corner at 0% 0%, rgba(35, 56, 102, .2) 30%, rgba(58, 138, 149, .7)), url('/images/tree-b5e0031a854bb971570eadb23d9b3129.jpg');
+  background-image: radial-gradient(circle farthest-corner at 0% 0%, rgba(35, 56, 102, .2) 30%, rgba(58, 138, 149, .7)), url('/images/tree-b5e0031a854bb971570eadb23d9b3129.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.first-screen-potok-individual.first-screen-potok-individual-goto {
+  height: 100%;
+  padding-top: 6em;
+}
+
+.potok-header-individual-main {
+  padding-top: 0.2em;
+  padding-bottom: 0.3em;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 4em;
+  line-height: 1.1em;
+  font-weight: 100;
+}
+
+.first-screen-potok-individual-p {
+  padding-bottom: 2em;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  font-weight: 100;
+}
+
+.first-screen-potok-individual-p.first-screen-potok-individual-p-goto {
+  padding-bottom: 1em;
+}
+
+.first-screen-potok-individual-btn {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 1em 2em;
+  border-radius: 6px;
+  background-color: hsla(0, 0%, 100%, .4);
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.first-screen-potok-individual-btn:hover {
+  background-color: hsla(0, 0%, 100%, .6);
+}
+
+.first-screen-potok-individual-link {
+  padding-bottom: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.first-screen-potok-individual-link:hover {
+  opacity: 0.8;
+}
+
+.first-screen-potok-individual-text {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.first-screen-potok-individual-link-top {
+  padding-bottom: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.first-screen-potok-individual-link-top:hover {
+  opacity: 0.8;
+}
+
+.footer-potok-individual-goto {
+  display: block;
+  width: 100%;
+  margin-top: 6em;
+  padding-top: 1em;
+  border-top: 1px solid hsla(0, 0%, 100%, .3);
+}
+
+.first-screen-potok-individual-link-goto {
+  padding-bottom: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+  color: #fff;
+  text-decoration: none;
+}
+
+.first-screen-potok-individual-link-goto:hover {
+  opacity: 0.8;
+}
+
+.first-screen-potok-scroll-link {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
+}
+
+.social-block-potok {
+  padding-left: 6em;
+  background-color: #8a2c34;
+}
+
+.html-embed {
+  margin-top: 15px;
+}
+
+.issued-loans-potok {
+  padding-top: 6em;
+  padding-bottom: 6em;
+  background-color: #ddd;
+}
+
+.issued-loans-potok-slider {
+  height: 500px;
+  padding-top: 3em;
+  background-color: transparent;
+}
+
+.right-arrow {
+  color: #000;
+}
+
+.issued-loans-potok-slider-arrow-right {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 100;
+}
+
+.issued-loans-potok-slider-arrow-left {
+  color: #fff;
+  font-size: 3em;
+}
+
+.issued-loans-potok-slider-block-top {
+  margin-right: 2em;
+  margin-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #374c62;
+  box-shadow: 0 0 10px 0 #233866;
+  text-align: center;
+}
+
+.issued-loans-potok-slider-block-down {
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 2em 1em 1em;
+  background-color: #fff;
+  box-shadow: 0 10px 20px -5px rgba(35, 56, 102, .52);
+}
+
+.prazdnik-text-potok {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 1167px) {
+  .main-footer-potok {
+    padding-left: 3em;
+  }
+  .main-footer-potok-p {
+    display: block;
+  }
+  .footer-action-potok {
+    padding-left: 3em;
+  }
+  .minimum-requirements-potok {
+    padding-left: 3em;
+  }
+  .potok-header.potok-white-color.social-tab {
+    text-align: left;
+  }
+  .works-with-all-potok {
+    padding-left: 3em;
+  }
+  .about-platform-potok {
+    padding-right: 30%;
+    padding-left: 3em;
+  }
+  .in-the-media-potok {
+    padding-left: 3em;
+  }
+  .potok-img-smi {
+    margin-top: 2em;
+    margin-bottom: -1em;
+  }
+  .video-about-service-potok {
+    padding-right: 6em;
+    padding-left: 3em;
+  }
+  .conditions-potok {
+    padding-left: 3em;
+  }
+  .main-features-potok {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+  .potok-divider-line {
+    background-color: #666;
+  }
+  .first-screen-potok {
+    padding-left: 3em;
+  }
+  .first-screen-potok-form-input {
+    width: 60%;
+  }
+  .first-screen-potok-form-input.party {
+    max-width: 60%;
+  }
+  .navbar-potok-logo {
+    margin-top: 1.1em;
+    margin-left: 3.4em;
+  }
+  .navbar-potok-link {
+    border-bottom-style: none;
+    text-decoration: underline;
+  }
+  .navbar-potok-link-afp {
+    border-bottom-style: none;
+    text-decoration: none;
+  }
+  .navbar-potok-link-afp span {
+    border-bottom-style: none;
+    text-decoration: underline;
+  }
+  .navbar-potok-menu {
+    padding-bottom: 1em;
+    padding-left: 1em;
+    background-color: #ed3530;
+  }
+  .navbar-potok-icon {
+    padding-left: 18px;
+    color: #fff;
+    font-size: 2em;
+  }
+  .navbar-potok-icon.w--open {
+    background-color: #ed3530;
+  }
+  .dropdown-toggle {
+    padding-top: 9px;
+    padding-left: 15px;
+  }
+  .navbar-potok-dropdown-link {
+    padding-left: 0px;
+    text-decoration: underline;
+  }
+  .navbar-potok-dropdown-list.w--open {
+    background-color: #ed3530;
+  }
+  .login-system-potok-individual-form-field {
+    width: 60%;
+  }
+  .first-screen-potok-individual {
+    padding-left: 6em;
+  }
+  .issued-loans-potok-slider-arrow-right {
+    opacity: 0.5;
+  }
+  .issued-loans-potok-slider-arrow-left {
+    opacity: 0.5;
+  }
+  .issued-loans-potok-slider-block-top {
+    margin-right: 0em;
+    margin-left: 0em;
+  }
+  .issued-loans-potok-slider-block-down {
+    margin-right: 0em;
+    margin-left: 0em;
+  }
+}
+
+@media (max-width: 767px) {
+  .minimum-requirements-potok {
+    padding-top: 3em;
+    padding-bottom: 6em;
+  }
+  .potok-header.potok-white-color.social-tab {
+    margin-bottom: 0px;
+  }
+  .potok-header.potok-header-issued-loans {
+    text-align: left;
+  }
+  .works-with-all-potok {
+    padding-top: 3em;
+    padding-bottom: 6em;
+  }
+  .about-platform-potok {
+    padding-top: 6em;
+    padding-right: 3em;
+    padding-bottom: 9em;
+  }
+  .in-the-media-potok {
+    padding-bottom: 3em;
+  }
+  .potok-img-smi {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .video-about-service-potok {
+    padding-top: 3em;
+    padding-bottom: 6em;
+  }
+  .conditions-potok {
+    padding-top: 3em;
+    padding-bottom: 6em;
+  }
+  .main-features-potok {
+    padding-top: 3em;
+    padding-bottom: 6em;
+  }
+  .main-features-potok-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .first-screen-potok {
+    padding-top: 6em;
+    padding-right: 3em;
+  }
+  .first-screen-potok-form-input {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .first-screen-potok-form-input.party {
+    max-width: 60%;
+  }
+  .first-screen-potok-form-btn {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .potok-img-mouse-scroll {
+    margin-bottom: 0em;
+  }
+  .navbar-potok-logo {
+    margin-left: 2.4em;
+  }
+  .how-it-works-potok-individual {
+    padding: 3em;
+  }
+  .potok-img-individual-how-it-works {
+    margin-left: 0px;
+  }
+  .what-risks-potok-individual {
+    padding: 1em 3em 6em;
+  }
+  .more-in-blog-potok-individual {
+    padding: 3em 3em 6em;
+  }
+  .conditions-potok-individual {
+    padding: 3em 3em 6em;
+  }
+  .leader-speech-potok-individual {
+    padding: 3em 3em 6em;
+  }
+  .login-system-potok-individual {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+  .login-system-potok-individual-form-field {
+    width: 70%;
+  }
+  .footer-potok-individual {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+  .first-screen-potok-individual {
+    min-height: 600px;
+    padding-top: 6em;
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+  .social-block-potok {
+    padding-bottom: 1em;
+    padding-left: 3em;
+  }
+  .issued-loans-potok {
+    padding-top: 3em;
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+  .issued-loans-potok-slider {
+    height: 450px;
+  }
+  .issued-loans-potok-slider-mask {
+    height: 340px;
+  }
+}
+
+@media (max-width: 479px) {
+  .main-footer-potok {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .footer-action-potok {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .potok-btn {
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 1.2em;
+  }
+  .minimum-requirements-potok {
+    padding: 3em 2em 6em;
+  }
+  .potok-header {
+    padding-bottom: 0.3em;
+    font-size: 2.1em;
+  }
+  .works-with-all-potok {
+    padding: 3em 2em 6em;
+  }
+  .about-platform-potok {
+    padding: 3em 2em 6em;
+  }
+  .in-the-media-potok {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+  }
+  .video-about-service-potok {
+    padding: 3em 2em 6em;
+  }
+  .conditions-potok {
+    padding: 3em 2em 6em;
+  }
+  .main-features-potok {
+    padding: 3em 2em 6em;
+  }
+  .first-screen-potok {
+    padding: 12em 2em 6em;
+  }
+  .potok-header-main {
+    font-size: 2.4em;
+    line-height: 1.2em;
+  }
+  .first-screen-potok-form {
+    margin-top: 2em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .first-screen-potok-form-input {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    letter-spacing: -0.5px;
+  }
+  .first-screen-potok-form-input.party {
+    max-width: 100%;
+  }
+  .first-screen-potok-form-btn {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .navbar-potok-logo {
+    margin-left: 0.5em;
+    padding-left: 6px;
+  }
+  .how-it-works-potok-individual {
+    margin-left: -10px;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+  }
+  .potok-header-individual {
+    font-size: 2.4em;
+    line-height: 1.1em;
+    font-weight: 300;
+  }
+  .potok-header-second-individual {
+    font-size: 1.8em;
+  }
+  .potok-p-individual.potok-list-intem-individual {
+    font-size: 1.2em;
+  }
+  .potok-p-individual.leader-speech-potok-individual-p {
+    font-size: 1.3em;
+  }
+  .potok-img-individual-how-it-works {
+    margin-left: 0px;
+  }
+  .what-risks-potok-individual {
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .more-in-blog-potok-individual {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .conditions-potok-individual {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .leader-speech-potok-individual {
+    padding-top: 4em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .login-system-potok-individual {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .login-system-potok-individual-tabs-link {
+    margin-bottom: 6px;
+  }
+  .login-system-potok-individual-form-field {
+    width: 100%;
+  }
+  .footer-potok-individual {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .first-screen-potok-individual {
+    min-height: 0px;
+    padding-top: 7em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .potok-header-individual-main {
+    font-size: 2.7em;
+  }
+  .first-screen-potok-individual-p {
+    padding-bottom: 1em;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    font-weight: 100;
+  }
+  .first-screen-potok-individual-btn {
+    display: block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding-right: 1.6em;
+    padding-left: 1.6em;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .first-screen-potok-individual-text {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1.2em;
+  }
+  .first-screen-potok-individual-link-top {
+    font-size: 1.2em;
+  }
+  .social-block-potok {
+    padding-left: 2em;
+  }
+  .issued-loans-potok {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .issued-loans-potok-slider {
+    padding-top: 2em;
+  }
+}
+
