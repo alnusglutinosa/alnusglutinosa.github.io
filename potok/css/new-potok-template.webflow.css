@@ -1032,8 +1032,10 @@ p {
     padding: 3em 2em 6em;
   }
   .first-screen-potok {
+	height: auto;  
     padding: 12em 2em 6em;
   }
+  
   .potok-header-main {
     font-size: 2.4em;
     line-height: 1.2em;
