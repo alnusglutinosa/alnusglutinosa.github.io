@@ -1035,6 +1035,11 @@ p {
 	height: 100%;
     padding: 8em 2em 6em;
   }
+  .first-screen-potok-scroll-link {
+	  position: relative;
+  }
+  
+  
   .potok-header-main {
     font-size: 2.4em;
     line-height: 1.2em;
