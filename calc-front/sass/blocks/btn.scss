@@ -1,0 +1,122 @@
+.additional-products {
+  padding-bottom: 40px;
+
+  @media screen and (min-width: $desktop-media) {
+    display: flex;
+    width: 75%;
+    padding-bottom: 0;
+  }
+}
+
+.additional-products__wrapper {
+  @include padding-mob();
+
+  @media screen and (min-width: $desktop-media) {
+    max-width: $desktop-media;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.additional-products__list {
+  @media screen and (min-width: $tablet-media) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.additional-products__item {
+  padding-bottom: 24px;
+  padding-top: 24px;
+  border-bottom: 1px solid $line-separator;
+
+  @include padding-mob();
+
+  @media screen and (min-width: $tablet-media) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    &:first-child {
+      border-top: 1px solid $line-separator;
+    }
+  }
+
+  @media screen and (min-width: $desktop-media) {
+    padding: 16.68px 0;
+  }
+}
+
+.additional-products__item-content {
+  display: flex;
+  flex-grow: 1;
+
+  @media screen and (min-width: $desktop-media) {
+    width: 72.9%;
+  }
+}
+
+.additional-products__name {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1;
+  color: $black;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $desktop-media) {
+    width: 50%;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+}
+
+.additional-products__options {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (min-width: $tablet-media) {
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: $desktop-media) {
+    width: 44%;
+    height: 20px;
+    margin-left: 0;
+    padding-top: 4px;
+  }
+}
+
+.additional-products__options-list {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1;
+  font-family: $arial;
+  font-weight: 400;
+
+  @media screen and (min-width: $desktop-media) {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.additional-products__to-order {
+  @media screen and (min-width: $tablet-media) {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  @media screen and (min-width: $desktop-media) {
+    margin-left: auto;
+    margin-bottom: 0;
+    width: 27.1%;
+    padding: 10px 3px;
+  }
+}
