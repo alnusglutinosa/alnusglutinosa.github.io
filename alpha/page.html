@@ -2,57 +2,78 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Index page</title>
+    <title>Triple Alpha</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#fff" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" media="all" href="css/app.css" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
   </head>
   <body>
     <!-- BEGIN content -->
     <div class="out">
       <!-- begin header -->
-      <div class="bg1"></div>
-      <div class="bg2"></div>
       <header class="header">
         <div class="container">
           <div class="header__content">
-            <a class="header__logo  logo" href="/">
-              <img class="logo__img  is-mob-hidden" width="151" height="33" src="img/logo.png" alt="Logo triple alpha">
-              <img class="logo__img  is-mob-visible" width="33" height="29" src="img/logo-min.png" alt="Logo triple alpha">
+            <!-- begin logo -->
+            <a class=" header__logo logo" href="/">
+              <img class="logo__img  logo__img--icon" width="33" height="29" src="img/logo-min.png" alt="Logo triple alpha">
+              <img class="logo__img  logo__img--text is-mob-hidden" width="111" height="20" src="img/logo-text.png" alt="Logo triple alpha">
             </a>
-            <!-- begin header__language -->
-            <div class="header__language  language">
+            <!-- end logo -->
+            <!-- begin language -->
+            <div class="language">
               <ul class="language__list  js-language">
-                <li class="language__item  is-active">
+                <li class="language__item   is-active ">
                   <a class="language__link" href="#">Рус</a>
                 </li>
-                <li class="language__item">
+                <li class="language__item  ">
                   <a class="language__link" href="#">En</a>
                 </li>
-                <li class="language__item">
+                <li class="language__item  ">
                   <a class="language__link" href="#">中國</a>
                 </li>
               </ul>
             </div>
-            <!-- end header__language -->
-            <!-- begin nav -->
-            <nav class="header__nav  nav  js-menu">
-              <button class="nav__burger  burger  is-mob-visible  js-burger">
+            <!-- end language -->
+            <div class="header__burger">
+              <!-- begin burger -->
+              <button class="burger  is-mob-visible  js-burger">
                 <span class="burger__line"></span>
                 <span class="burger__line"></span>
                 <span class="burger__line"></span>
               </button>
-              <ul class="nav__list  is-mob-hidden">
+              <!-- begin burger -->
+            </div>
+            <!-- begin nav -->
+            <nav class="nav  js-nav">
+              <ul class="nav__list">
                 <li class="nav__item">
-                  <a href="#" class="nav__link">Команда</a>
+                  <a href="#" class="nav__link"> Команда </a>
                 </li>
                 <li class="nav__item">
-                  <a href="#" class="nav__link">WHITE PAPER</a>
+                  <a href="#" class="nav__link"> WHITE PAPER <span class="nav__icon  nav__icon--pdf">
+                      <svg class="icon icon-pdf">
+                        <use xlink:href="img/sprite.svg#icon-pdf"></use>
+                      </svg>
+                    </span>
+                  </a>
                 </li>
                 <li class="nav__item">
-                  <a href="#" class="nav__link">Вход</a>
+                  <a href="#" class="nav__link"> Вход <span class="nav__icon  nav__icon--lock">
+                      <svg class="icon icon-lock">
+                        <use xlink:href="img/sprite.svg#icon-lock"></use>
+                      </svg>
+                    </span>
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -61,15 +82,18 @@
         </div>
       </header>
       <!-- end header -->
+      <!-- begin main -->
       <main class="main">
         <!-- begin hero -->
         <div class="hero">
-          <div class="container">
-            <div class="hero__content">
-              <div class="hero__title"> Triple Alpha </div>
-              <div class="hero__sub-title  main-title"> Проект по созданию инвестиционного продукта с высокой доходностью и доступного каждому </div>
-              <div class="hero__btn  btn-info">
-                <a class="btn-info__btn  btn" href="#">Присоединиться</a>
+          <div class="hero__content  container">
+            <h1 class="hero__title  sect-title  js-splitme">
+              <span class="sect-title__word">Triple</span><span class="sect-title__word  sect-title__word--wrap">Alpha</span>
+            </h1>
+            <h2 class="hero__sub-title  main-title"> Проект &nbsp;по &nbsp;созданию &nbsp;инвестиционного &nbsp;продукта&nbsp; с&nbsp; высокой&nbsp; доходностью&nbsp; и&nbsp;доступного&nbsp; каждому </h2>
+            <div class="hero__btn">
+              <div class="btn-info">
+                <a class="btn-info__btn  btn " href="#">Присоединиться</a>
                 <div class="btn-info__descr"> ICO Стартует 2 января 2018 </div>
               </div>
             </div>
@@ -79,74 +103,110 @@
         <!-- begin about-sect -->
         <section class="about-sect">
           <div class="container">
-            <div class="about-sect__title  main-title"> Triple Alpha проект, который призван демократизировать индустрию управления активами.<br> Наша цель дать доступ к нашим алгоритмам максимально широкой аудитории по всему миру. </div>
+            <h3 class="about-sect__title  main-title  main-title--custom  main-title--mob-left">
+              <pre>Triple  Alpha  проект,   который   призван   демократизировать   индустрию   управления   активами.<br>Наша   цель   дать   доступ   к   нашим   алгоритмам   максимально   широкой   аудитории   по   всему миру.</pre>
+            </h3>
             <div class="about-sect__list">
-              <div class="about">
-                <div class="about__item"> За много лет исследований, мы создали алгоритмы высочайшего уровня, ранее доступные только для клиентов хедж-фондов. </div>
-                <div class="about__item"> Нашими ключевыми технологиями являются Алгоритм выбора наилучших акций в любой момент времени по всему миру, призванный собрать наиболее стабильный с точки зрения рисков и доходности портфель </div>
-                <div class="about__item"> Кроме этого мы создали уникальную рыночно-нейтральную стратегию, которая позволит получать доходность выше рыночной, при этом не коррелируя с общими рыночными движениями. </div>
-              </div>
+              <div class="about-sect__item  about"> За много лет исследований, мы создали алгоритмы высочайшего уровня, ранее доступные только для клиентов хедж-фондов. </div>
+              <div class="about-sect__item  about"> Нашими ключевыми технологиями являются Алгоритм выбора наилучших акций в любой момент времени по всему миру, призванный собрать наиболее стабильный с точки зрения рисков и доходности портфель </div>
+              <div class="about-sect__item  about"> Кроме этого мы создали уникальную<br>рыночно-нейтральную стратегию, которая позволит получать доходность выше рыночной, при этом не коррелируя с общими рыночными движениями. </div>
             </div>
             <div class="about-sect__btn">
-              <a class="btn-default  js-popup-link" href="#" data-popup="about">Узнать больше о triple alpha</a>
+              <a class="btn-default  js-popup-link" href="#" data-popup="about">Узнать &nbsp;больше &nbsp;о triple &nbsp;alpha</a>
             </div>
           </div>
         </section>
         <!-- end about-sect -->
+        <!-- begin about-chart -->
+        <section class="about-chart  js-about-chart">
+          <div class="container about-chart__container">
+            <h3 class="about-chart__title main-title  main-title--alignment"> Дорожная карта </h3>
+            <div class="about-chart__wrap">
+              <div class="about-chart__item road-map  scrollbar-external">
+                <img class="road-map__img  road-map__img--bottom  js-chart-img" src="img/chart/bottom.png" alt="road map">
+                <img class="road-map__img  road-map__img--top js-chart-img" src="img/chart/top.png" alt="road map">
+                <div class="road-map__list">
+                  <div class="road-map__item"> 2018 Q1<br> Автоматизация<br> алгоритма<br> выбора акций </div>
+                  <div class="road-map__item"> 2018 Q3<br> Запуск <br> рыночно-нейтрального <br> ETF на площадках США </div>
+                  <div class="road-map__item"> 2019 Q1<br> Запуск ETF <br> на крупнейших биржах<br> по всему миру </div>
+                  <div class="road-map__item"> 2020 Q3<br> Начало выкупа токенов </div>
+                </div>
+              </div>
+              <div class="external-scroll_x">
+                <div class="scroll-element_outer">
+                  <div class="scroll-element_size"></div>
+                  <div class="scroll-element_track"></div>
+                  <div class="scroll-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end about-chart -->
         <!-- begin advantages-sect -->
-        <section class="advantages-sect">
+        <section class="advantages-sect  js-advantages-sect">
           <div class="container">
-            <div class="advantages-sect__title  main-title"> Преимущества Triple Alpha </div>
+            <h3 class="advantages-sect__title  main-title"> Преимущества Triple Alpha </h3>
             <ul class="advantages-sect__list">
-              <li class="advantages-sect__item  advantages">
+              <!-- begin advantage -->
+              <li class="advantage  advantages-sect__item  js-advantages-el-1 ">
                 <div class="advantages__media">
-                  <svg class="icon icon-facebook">
-                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                  <svg class="icon icon-availability">
+                    <use xlink:href="img/sprite.svg#icon-availability"></use>
                   </svg>
                 </div>
-                <div class="advantages__title"> Доступность продукта </div>
-                <div class="advantages__descr"> Благодаря использования структуры торгуемого на бирже фонда (ETF) доступ к нему будет у всех инвесторов по всему миру. </div>
+                <h4 class="advantages__title"> Доступность<br>продукта </h4>
+                <div class="advantages__descr  is-mob-hidden"> Благодаря использования структуры торгуемого на бирже фонда (ETF) доступ к нему будет у всех инвесторов по всему миру. </div>
               </li>
-              <li class="advantages-sect__item  advantages">
+              <!-- end advantage -->
+              <!-- begin advantage -->
+              <li class="advantage  advantages-sect__item  js-advantages-el-2 ">
                 <div class="advantages__media">
-                  <svg class="icon icon-facebook">
-                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                  <svg class="icon icon-graph">
+                    <use xlink:href="img/sprite.svg#icon-graph"></use>
                   </svg>
                 </div>
-                <div class="advantages__title"> Доступность продукта </div>
-                <div class="advantages__descr"> Благодаря использования структуры торгуемого на бирже фонда (ETF) доступ к нему будет у всех инвесторов по всему миру. </div>
+                <h4 class="advantages__title"> Высокая<br>доходность </h4>
+                <div class="advantages__descr  is-mob-hidden"> Позволяют получать значительно больший доход чем инструменты с фиксированной доходностью (евробонды, государственные и муниципальные облигации и т.д.) </div>
               </li>
-              <li class="advantages-sect__item  advantages">
+              <!-- end advantage -->
+              <!-- begin advantage -->
+              <li class="advantage  advantages-sect__item  js-advantages-el-3 ">
                 <div class="advantages__media">
-                  <svg class="icon icon-facebook">
-                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                  <svg class="icon icon-briefcase">
+                    <use xlink:href="img/sprite.svg#icon-briefcase"></use>
                   </svg>
                 </div>
-                <div class="advantages__title"> Доступность продукта </div>
-                <div class="advantages__descr"> Благодаря использования структуры торгуемого на бирже фонда (ETF) доступ к нему будет у всех инвесторов по всему миру. </div>
+                <h4 class="advantages__title"> Отличная<br>возможность<br>диверсификации </h4>
+                <div class="advantages__descr  is-mob-hidden"> Позволяют получать доход как в периоды роста так и падения рынков акций. </div>
               </li>
-              <li class="advantages-sect__item  advantages">
+              <!-- end advantage -->
+              <!-- begin advantage -->
+              <li class="advantage  advantages-sect__item  js-advantages-el-4 ">
                 <div class="advantages__media">
-                  <svg class="icon icon-facebook">
-                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                  <svg class="icon icon-percent">
+                    <use xlink:href="img/sprite.svg#icon-percent"></use>
                   </svg>
                 </div>
-                <div class="advantages__title"> Доступность продукта </div>
-                <div class="advantages__descr"> Благодаря использования структуры торгуемого на бирже фонда (ETF) доступ к нему будет у всех инвесторов по всему миру. </div>
+                <h4 class="advantages__title"> Низкие<br>комиссии </h4>
+                <div class="advantages__descr  is-mob-hidden"> Мы предоставим продукт высоко качества по цене существенно меньшей, чем комиссии хедж-фондов и других управляющих. </div>
               </li>
-              <li class="advantages-sect__item  advantages">
+              <!-- end advantage -->
+              <!-- begin advantage -->
+              <li class="advantage  advantages-sect__item  js-advantages-el-5 ">
                 <div class="advantages__media">
-                  <svg class="icon icon-facebook">
-                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                  <svg class="icon icon-disconnect">
+                    <use xlink:href="img/sprite.svg#icon-disconnect"></use>
                   </svg>
                 </div>
-                <div class="advantages__title"> Доступность продукта </div>
-                <div class="advantages__descr"> Благодаря использования структуры торгуемого на бирже фонда (ETF) доступ к нему будет у всех инвесторов по всему миру. </div>
+                <h4 class="advantages__title"> Автоматизированная<br> система принятия<br> решений </h4>
+                <div class="advantages__descr  is-mob-hidden"> Полная алгоритмизация процесса позволяет избежать многочисленных рисков "человеческого фактора" управляющего активами. </div>
               </li>
+              <!-- end advantage -->
             </ul>
             <div class="advantages-sect__btn">
               <div class="btn-info">
-                <a class="btn-info__btn  btn" href="#">Присоединиться</a>
+                <a class="btn-info__btn  btn " href="#">Присоединиться</a>
                 <div class="btn-info__descr"> ICO Стартует 2 января 2018 </div>
               </div>
             </div>
@@ -154,16 +214,140 @@
         </section>
         <!-- end advantages-sect -->
         <!-- begin statistical-sect -->
-        <section class="statistical-sect">
+        <section class="statistical-sect  js-statistical-sect">
           <div class="container">
+            <div class="tabs  js-tabs">
+              <div class="tabs__nav  main-title  main-title--alignment  js-tab">
+                <button class="tabs__link " type="button" data-target-tab="tab1"> Статистика </button>
+                <button class="tabs__link  is-active " type="button" data-target-tab="tab2"> Исторические результаты </button>
+              </div>
+              <div class="tabs__content  " data-tab="tab1">
+                <div class=" tabs__table ">
+                  <!-- begin table -->
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <td>Factor</td>
+                        <td>Algo</td>
+                        <td>SPY</td>
+                        <td>Year</td>
+                        <td>Algo</td>
+                        <td>SPY</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td> Total Return </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> Annualized Return </td>
+                        <td> 20.19% </td>
+                        <td> 8.22% </td>
+                        <td> 2009 </td>
+                        <td> 25.73% </td>
+                        <td> 26.35% </td>
+                      </tr>
+                      <tr>
+                        <td> Average Monthly Return </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> Largest Monthly Return </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> Largest Monthly Loss </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> % Winning Months </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> Max DD </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> DD length </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> Annualized Volatility </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> Annual Return to Max DD </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                        <td> 24.50% </td>
+                        <td> -36,24% </td>
+                      </tr>
+                      <tr>
+                        <td> Sharpe Ratio </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                      </tr>
+                      <tr>
+                        <td> Sortino Ratio </td>
+                        <td> 510.08% </td>
+                        <td> 117.58% </td>
+                        <td> 2008 </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- end table --> .
+                </div>
+              </div>
+              <div class="tabs__content   is-active " data-tab="tab2">
+                <div class=" tabs__graph ">
+                  <canvas id="history"></canvas>
+                  <ul class="js-history-legends history-legends"></ul> .
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <!-- end statistical-sect -->
         <!-- begin details-sect -->
         <section class="details-sect">
           <div class="container">
-            <div class="details-sect__title  main-title"> Детали ICO </div>
-            <div class="details-sect__list">
+            <h3 class="details-sect__title  main-title"> Детали ICO </h3>
+            <div class="details-sect__list  details-ico">
               <div class="details-ico__item">
                 <dl class="details-ico">
                   <dt class="details-ico__title"> Прибыль от токена Tripple Alpha для криптоинвесторов: </dt>
@@ -172,30 +356,30 @@
               </div>
               <div class="details-ico__item">
                 <dl class="details-ico">
-                  <dt class="details-ico__title"> Прибыль от токена Tripple Alpha для криптоинвесторов: </dt>
-                  <dd class="details-ico__descr"> Выкуп у криптоинвесторов токенов будет производен по фиксированной цене $2. Выкуп токенов будет обеспечиваться средствами, заработанных фондом по management fee. </dd>
+                  <dt class="details-ico__title"> Порядок<br>выплат: </dt>
+                  <dd class="details-ico__descr"> Порядок выплат будет происходить по принципу first come first served </dd>
                 </dl>
               </div>
               <div class="details-ico__item">
                 <dl class="details-ico">
-                  <dt class="details-ico__title"> Прибыль от токена Tripple Alpha для криптоинвесторов: </dt>
-                  <dd class="details-ico__descr"> Выкуп у криптоинвесторов токенов будет производен по фиксированной цене $2. Выкуп токенов будет обеспечиваться средствами, заработанных фондом по management fee. </dd>
+                  <dt class="details-ico__title"> Сокращение: </dt>
+                  <dd class="details-ico__descr"> TRIA </dd>
                 </dl>
                 <dl class="details-ico">
-                  <dt class="details-ico__title"> Прибыль от токена Tripple Alpha для криптоинвесторов: </dt>
-                  <dd class="details-ico__descr"> Выкуп у криптоинвесторов токенов будет производен по фиксированной цене $2. Выкуп токенов будет обеспечиваться средствами, заработанных фондом по management fee. </dd>
-                </dl>
-              </div>
-              <div class="details-ico__item">
-                <dl class="details-ico">
-                  <dt class="details-ico__title"> Прибыль от токена Tripple Alpha для криптоинвесторов: </dt>
-                  <dd class="details-ico__descr"> Выкуп у криптоинвесторов токенов будет производен по фиксированной цене $2. Выкуп токенов будет обеспечиваться средствами, заработанных фондом по management fee. </dd>
+                  <dt class="details-ico__title"> Начальный курс: </dt>
+                  <dd class="details-ico__descr"> Фиксированная стоимость одного токена на PRE-ICO — $0.50, ICO — $1. </dd>
                 </dl>
               </div>
               <div class="details-ico__item">
                 <dl class="details-ico">
-                  <dt class="details-ico__title"> Прибыль от токена Tripple Alpha для криптоинвесторов: </dt>
-                  <dd class="details-ico__descr"> Выкуп у криптоинвесторов токенов будет производен по фиксированной цене $2. Выкуп токенов будет обеспечиваться средствами, заработанных фондом по management fee. </dd>
+                  <dt class="details-ico__title"> Ограничение числа<br>токенов: </dt>
+                  <dd class="details-ico__descr"> 11,000,000 (одиннадцать миллионов) токенов </dd>
+                </dl>
+              </div>
+              <div class="details-ico__item">
+                <dl class="details-ico">
+                  <dt class="details-ico__title"> Регулируемый: </dt>
+                  <dd class="details-ico__descr"> Да. Все нераспроданные токены будут уничтожены. </dd>
                 </dl>
               </div>
             </div>
@@ -205,70 +389,77 @@
         <!-- begin team-sect -->
         <section class="team-sect">
           <div class="container">
-            <div class="team-sect__title  main-title"> Наша&nbsp;&nbsp;команда </div>
+            <h3 class="team-sect__title  main-title"> Наша&nbsp;&nbsp;команда </h3>
             <ul class="team-sect__list">
-              <li class="team-sect__item  person">
+              <li class="team-sect__item  person  js-person">
                 <div class="person__img-wrap">
                   <img class="person__img" src="img/team/team1.png" alt="person photo">
                 </div>
-                <div class="person__name">
+                <div class="person__info">
+                  <div class="person__name"> Илья Филиппов </div>
+                  <div class="person__position"> Сооснователь и CEO </div>
                 </div>
-                <div class="person__position"> Сооснователь и CEO </div>
                 <div class="person__descr"> Илья обладает 7-летним опытом создания количественных моделей, используемых для прогнозирования рынка акций, инструментов с фиксированным доходом и разработки арбитражных стратегий волатильности. Окончил экономико-математический факультет Российского Экономического Университета им. Г.В. Плеханова. </div>
               </li>
-              <li class="team-sect__item  person">
+              <li class="team-sect__item  person  js-person">
                 <div class="person__img-wrap">
                   <img class="person__img" src="img/team/team2.png" alt="person photo">
                 </div>
-                <div class="person__name">
+                <div class="person__info">
+                  <div class="person__name"> Самит Яковлев </div>
+                  <div class="person__position"> Сооснователь и партнер </div>
                 </div>
-                <div class="person__position"> Сооснователь и CEO </div>
-                <div class="person__descr"> Илья обладает 7-летним опытом создания количественных моделей, используемых для прогнозирования рынка акций, инструментов с фиксированным доходом и разработки арбитражных стратегий волатильности. Окончил экономико-математический факультет Российского Экономического Университета им. Г.В. Плеханова. </div>
+                <div class="person__descr"> Управляющий активами c 20-летним опытом работы. В 1998 году Самит вошел в пятерку лучших трейдеров России по данным журнала «Деньги». Он является основателем и управляющим партнером Marcuard Spectrum, Inventum Group, AlgoMost и ArtQuant. </div>
               </li>
-              <li class="team-sect__item  person">
+              <li class="team-sect__item  person  js-person">
                 <div class="person__img-wrap">
                   <img class="person__img" src="img/team/team3.png" alt="person photo">
                 </div>
-                <div class="person__name">
+                <div class="person__info">
+                  <div class="person__name"> Петр Петров </div>
+                  <div class="person__position"> Управляющий Партнер </div>
                 </div>
-                <div class="person__position"> Сооснователь и CEO </div>
-                <div class="person__descr"> Илья обладает 7-летним опытом создания количественных моделей, используемых для прогнозирования рынка акций, инструментов с фиксированным доходом и разработки арбитражных стратегий волатильности. Окончил экономико-математический факультет Российского Экономического Университета им. Г.В. Плеханова. </div>
+                <div class="person__descr"> Петр приобрел многолетний опыт на международных финансовых рынках,<br>работая в Morgan Stanley и Barclays<br>Capital. Петр получил степень МВА в<br>Высшей Школе Бизнеса Чикаго (Booth).<br>До этого Петр окончил Московскую Государственную Юридическую<br>Академию. Также учился в Гонконгском университете науки и технологии(<br>HKUST). </div>
               </li>
-              <li class="team-sect__item  person">
+              <li class="team-sect__item  person  js-person">
                 <div class="person__img-wrap">
                   <img class="person__img" src="img/team/team4.png" alt="person photo">
                 </div>
-                <div class="person__name">
+                <div class="person__info">
+                  <div class="person__name"> Андрей Яковлев </div>
+                  <div class="person__position"> Технический Директор </div>
                 </div>
-                <div class="person__position"> Сооснователь и CEO </div>
-                <div class="person__descr"> Илья обладает 7-летним опытом создания количественных моделей, используемых для прогнозирования рынка акций, инструментов с фиксированным доходом и разработки арбитражных стратегий волатильности. Окончил экономико-математический факультет Российского Экономического Университета им. Г.В. Плеханова. </div>
+                <div class="person__descr"> Андрей является разработчиком программного обеспечения с более чем 20-летним опытом работы. Был техническим директором государственной компании ДКК (2006-2011 годы), где получил опыт в создании инфраструктуры для обработки больших объемов данных. </div>
               </li>
-              <li class="team-sect__item  person">
+              <li class="team-sect__item  person  js-person">
                 <div class="person__img-wrap">
                   <img class="person__img" src="img/team/team5.png" alt="person photo">
                 </div>
-                <div class="person__name">
+                <div class="person__info">
+                  <div class="person__name"> Дмитрий Бирюков </div>
+                  <div class="person__position"> Управляющий Партнер </div>
                 </div>
-                <div class="person__position"> Сооснователь и CEO </div>
-                <div class="person__descr"> Илья обладает 7-летним опытом создания количественных моделей, используемых для прогнозирования рынка акций, инструментов с фиксированным доходом и разработки арбитражных стратегий волатильности. Окончил экономико-математический факультет Российского Экономического Университета им. Г.В. Плеханова. </div>
+                <div class="person__descr"> Дмитрий обладает большим опытом в области венчурного инвестирования. Он был основателем таких компаний как Адамант (рекламное агентство), Олимпия (страховая компания) и Inventum Algorithmic Asset Management (инвестиционная компания). Также он является основателем компании Алгомост, одного из лидеров в области Big Data в России. </div>
               </li>
-              <li class="team-sect__item  person">
+              <li class="team-sect__item  person  js-person">
                 <div class="person__img-wrap">
                   <img class="person__img" src="img/team/team6.png" alt="person photo">
                 </div>
-                <div class="person__name">
+                <div class="person__info">
+                  <div class="person__name"> Михаил Левиев </div>
+                  <div class="person__position"> Советник по технологиям </div>
                 </div>
-                <div class="person__position"> Сооснователь и CEO </div>
-                <div class="person__descr"> Илья обладает 7-летним опытом создания количественных моделей, используемых для прогнозирования рынка акций, инструментов с фиксированным доходом и разработки арбитражных стратегий волатильности. Окончил экономико-математический факультет Российского Экономического Университета им. Г.В. Плеханова. </div>
+                <div class="person__descr"> Окончил МИРЭА. Cпециалист по информационным технологиям. Директор Научно-технического и Бизнес центра наукоемких стартап проектов МФТИ. Менеджер в сфере высоких технологий. Михаил является генеральным директором компании Алгомост. </div>
               </li>
-              <li class="team-sect__item  person">
+              <li class="team-sect__item  person  js-person">
                 <div class="person__img-wrap">
                   <img class="person__img" src="img/team/team7.png" alt="person photo">
                 </div>
-                <div class="person__name">
+                <div class="person__info">
+                  <div class="person__name"> Александр Дьяконов </div>
+                  <div class="person__position"> Советник по науке </div>
                 </div>
-                <div class="person__position"> Сооснователь и CEO </div>
-                <div class="person__descr"> Илья обладает 7-летним опытом создания количественных моделей, используемых для прогнозирования рынка акций, инструментов с фиксированным доходом и разработки арбитражных стратегий волатильности. Окончил экономико-математический факультет Российского Экономического Университета им. Г.В. Плеханова. </div>
+                <div class="person__descr"> Профессор кафедры математических<br>методов прогнозирования факультета ВМК Московского государственного<br>университета. На данный момент лучший специалист в области анализа данных в России. Долгое время занимал первое<br>место в рейтинге специалистов по<br>анализу данных от KAGGLE. Имеет<br>огромный опыт решения практических<br>задач методами анализа данных. </div>
               </li>
             </ul>
           </div>
@@ -278,16 +469,22 @@
         <section class="partners-sect">
           <div class="container">
             <div class="partners-sect__wrap">
-              <div class="partners-sect__title  main-title  main-title--alignment"> Наши&nbsp;&nbsp;партнеры </div>
+              <h3 class="partners-sect__title  main-title  main-title--alignment-sm"> Наши&nbsp;&nbsp;партнеры </h3>
               <div class="partners-sect__list">
-                <div class="partner">
-                  <img class="partner__img" src="img/partners/partner1.png" alt="partner logo">
+                <div class="partners-sect__item">
+                  <div class="partner">
+                    <img class="partner__img" src="img/partners/partner1.png" alt="partner logo">
+                  </div>
                 </div>
-                <div class="partner">
-                  <img class="partner__img" src="img/partners/partner2.png" alt="partner logo">
+                <div class="partners-sect__item">
+                  <div class="partner">
+                    <img class="partner__img" src="img/partners/partner2.png" alt="partner logo">
+                  </div>
                 </div>
-                <div class="partner">
-                  <img class="partner__img" src="img/partners/partner3.png" alt="partner logo">
+                <div class="partners-sect__item">
+                  <div class="partner">
+                    <img class="partner__img" src="img/partners/partner3.png" alt="partner logo">
+                  </div>
                 </div>
               </div>
             </div>
@@ -295,70 +492,52 @@
         </section>
         <!-- end partners-sect -->
       </main>
+      <!-- end main -->
+      <!-- begin footer -->
       <footer class="footer">
         <div class="container">
           <div class="footer__body">
-            <div class="footer__title  main-title  main-title--alignment"> Пресса&nbsp;&nbsp;о&nbsp;&nbsp;нас </div>
+            <h3 class="footer__title  main-title  main-title--alignment"> Пресса&nbsp;&nbsp;о&nbsp;&nbsp;нас </h3>
             <div class="footer__content">
               <div class="footer__articles">
-                <div class="articles-list">
+                <div class="footer__articles-item  articles-list">
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
+                    <h4 class="article__title"> Цель Artquant – привести человека к инвестициям» </h4>
                     <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
                   </a>
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <h4 class="article__title"> Portfolioand.Me упростил работу с ценными бумагами </h4>
+                    <div class="article__info"> Сколково — 8 декабря 2015 года </div>
                   </a>
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <h4 class="article__title"> Российские стартапы, которые собираются<br>в Азию </h4>
+                    <div class="article__info"> Rusbase — 18 августа 2015 года </div>
                   </a>
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <h4 class="article__title"> Why Russian startups are flocking to Singapore </h4>
+                    <div class="article__info"> CNBC Дата — 25 июня 2015 года </div>
                   </a>
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
-                  </a>
-                  <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
-                  </a>
-                  <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <h4 class="article__title"> Карта кризисов для инвестора: как предсказать<br> спад в экономике 44 стран </h4>
+                    <div class="article__info"> РБК Деньги — 22 июля 2016 года </div>
                   </a>
                 </div>
-                <div class="articles-list">
+                <div class="footer__articles-item  articles-list">
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <div class="article__title"> Карта кризисов для инвестора: как предсказать<br> спад в экономике 44 стран </div>
+                    <div class="article__info"> РБК Деньги — 22 июля 2016 года </div>
                   </a>
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <div class="article__title"> Искусственный интеллект займется анализом<br> рынка ценных бумаг </div>
+                    <div class="article__info"> Сколково — 20 мая 2015 года </div>
                   </a>
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <div class="article__title"> Artquant — финансовые инструменты<br> для анализа событий на рынке </div>
+                    <div class="article__info"> VC.RU — 7 сентября 2015 года </div>
                   </a>
                   <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
-                  </a>
-                  <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
-                  </a>
-                  <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
-                  </a>
-                  <a class="articles-list__item  article" href="#">
-                    <div class="article__title"> Цель Artquant – привести человека к инвестициям» </div>
-                    <div class="article__info"> Журнал «Financial One» — 7 июня 2016 года </div>
+                    <div class="article__title"> Portfolioand.Me – финансовый советник для работы<br> с фондовым рынком </div>
+                    <div class="article__info"> журнал «Банковские Технологии» выпуск №6 — июнь 2016 </div>
                   </a>
                 </div>
               </div>
@@ -390,9 +569,11 @@
               <a class="menu-info__link" href="#">Privacy and Security Statements</a>
               <a class="menu-info__link" href="#">Terms of Use</a>
             </div>
-            <div class="footer__btn  btn-info">
-              <a class="btn-info__btn  btn btn--dark" href="#">Присоединиться</a>
-              <div class="btn-info__descr"> ICO Стартует 2 января 2018 </div>
+            <div class="footer__btn">
+              <div class="btn-info">
+                <a class="btn-info__btn  btn  btn--dark " href="#">Присоединиться</a>
+                <div class="btn-info__descr"> ICO Стартует 2 января 2018 </div>
+              </div>
             </div>
             <div class="footer__social">
               <ul class="social-list">
@@ -415,20 +596,71 @@
           </div>
         </div>
       </footer>
+      <!-- end footer -->
       <!-- begin popup -->
       <div class="popup js-popup" data-popup="about">
-        <div class="popup__inner popup__inner--log popup__inner--login">
-          <button class="popup__close js-popup-close">
-            <svg class="icon icon-close">
-              <use xlink:href="img/sprite.svg#icon-close"></use>
-            </svg>
-          </button>
-          <h2 class="section-title popup__title popup__title--login">Войти на сайт</h2>
-          <div class="popup__socials">
-            <div class="popup__socials-title">Войти через социальные сети:</div>
-          </div>
-          <div class="popup__or or"><span></span>
-            <div>или</div><span></span>
+        <div class="popup__body">
+          <div class="popup__container">
+            <header class="popup__header">
+              <!-- begin logo -->
+              <a class="logo" href="/">
+                <img class="logo__img  logo__img--icon" width="33" height="29" src="img/logo-min.png" alt="Logo triple alpha">
+                <img class="logo__img  logo__img--text is-mob-hidden" width="111" height="20" src="img/logo-text.png" alt="Logo triple alpha">
+              </a>
+              <!-- end logo -->
+              <!-- begin language -->
+              <div class="language">
+                <ul class="language__list  js-language">
+                  <li class="language__item   is-active ">
+                    <a class="language__link" href="#">Рус</a>
+                  </li>
+                  <li class="language__item  ">
+                    <a class="language__link" href="#">En</a>
+                  </li>
+                  <li class="language__item  ">
+                    <a class="language__link" href="#">中國</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end language -->
+              <!-- begin nav -->
+              <nav class="nav  js-nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="#" class="nav__link"> WHITE PAPER <span class="nav__icon  nav__icon--pdf">
+                        <svg class="icon icon-pdf">
+                          <use xlink:href="img/sprite.svg#icon-pdf"></use>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- end nav -->
+            </header>
+            <div class="popup__content">
+              <div class="popup__title  sect-title"> Triple Alpha </div>
+              <h3 class="popup__sub-title  main-title  main-title--default"> Triple &nbsp;Alpha &nbsp;&nbsp;проект, &nbsp;который &nbsp;призван демократизировать &nbsp;индустрию &nbsp;управления&nbsp; активами.<br>Наша &nbsp;цель &nbsp;&nbsp;дать доступ &nbsp;&nbsp;к&nbsp;&nbsp; нашим &nbsp;&nbsp;алгоритмам &nbsp;&nbsp;максимально &nbsp; широкой &nbsp;&nbsp;аудитории &nbsp;&nbsp;по&nbsp;&nbsp; всему миру. </h3>
+              <div class="popup__descr">
+                <div class="popup__info  popup__info--left">
+                  <p> За много лет исследований, мы создали алгоритмы высочайшего уровня, ранее доступные только для клиентов хедж-фондов. </p>
+                  <p> Нашими ключевыми технологиями являются Алгоритм выбора наилучших акций в любой момент времени по всему миру, призванный собрать наиболее стабильный с точки зрения рисков и доходности портфель. Кроме этого мы создали уникальную рыночно-нейтральную стратегию, которая позволит получать доходность выше рыночной, при этом не коррелируя с общими рыночными движениями. </p>
+                </div>
+                <div class="popup__info  popup__info--right">
+                  <p> Это позволит инвесторам получать доход не только на стабильно растущем рынке, но и во время финансовых кризисов. Triple Alpha позволит выйти за рамки одной страны, так как главная задача прокета – создать ETF, торгующиеся на крупнейших мировых биржах, для максимально удобной доставки алгоритма всем желающим. </p>
+                  <p> Мы решаем важные проблемы индустрии управления активами и планируем стать по-настоящему прорывным проектом в своей области. </p>
+                </div>
+              </div>
+            </div>
+            <footer class="popup__footer">
+              <button class="popup__close  btn-close  js-popup-close"><span class="popup__close-text">Закрыть</span></button>
+              <div class="popup__btn">
+                <div class="btn-info">
+                  <a class="btn-info__btn  btn " href="#">Присоединиться</a>
+                  <div class="btn-info__descr"> ICO Стартует 2 января 2018 </div>
+                </div>
+              </div>
+            </footer>
           </div>
         </div>
       </div>
